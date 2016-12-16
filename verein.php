@@ -19,8 +19,8 @@
 <body>
 <div class="w3-container w3-padding-large">
     <a href="/kraut"><img src="/kraut/img/krautspace.svg" id="subpagelogo"></a>
-    <div id="subnavlinks" class="navlinks">
-        <ul class="w3-hide-small">
+    <div id="subnavlinks" class="navlinks w3-hide-small">
+        <ul>
             <li><a href="/kraut/verein">Verein</a></li>
             <li><a href="/kraut/raum">Raum</a></li>
             <li><a href="/kraut/termine">Termine</a></li>
@@ -28,7 +28,7 @@
             <li><a href="https://kraut.space/blog:start" class="external">Blog</a></li>
         </ul>
     </div>
-    <nav class="w3-dropdown-hover w3-right">
+    <nav class="w3-dropdown-hover w3-right w3-hide-large w3-hide-medium">
         <button class="w3-btn">Menu</button>
         <div class="w3-dropdown-content w3-card-4">
             <a href="/kraut/verein">Verein</a>
@@ -80,53 +80,27 @@
                 3726 3D60 AFE3 AB3F AB6D.
                 Für einen Erstkontakt kann auch dieser Service benutzt werden: https://encrypt.to/0x3D60AFE3AB3FAB6D
             </p>
-
-            <div class="icondiv w3-circle"><img src="/kraut/img/icons/diamond.svg" class="icon"></div>
-            <h3 id="bankverbindung">Bankverbindung</h3>
-
-            <p>Das Konto des Vereins lautet:</p>
-
-            <div>
-                Inhaber: Hackspace Jena e.V.<br>
-                IBAN: DE55 8309 4495 0003 1839 12<br>
-                BIC: GENO DE F1 ETK<br>
-                Bank: Ethikbank Eisenberg
-            </div>
         </div>
     </div>
     <div class="w3-col l4 m5" id="sidebar">
         <div class="w3-container w3-padding-large">
-            <div class="w3-border-bottom w3-padding-medium" id="krautstatus">
-                <?php getKrautSidebar($status); ?>
-            </div>
-            <div class="w3-border-bottom w3-padding-medium" id="xmpp">
-                <div class="sidebar-heading">
-                    <div class="icondiv w3-circle"><img src="/kraut/img/icons/lightbulb-o.svg" class="icon"></div>
-                    <h4>XMPP</h4>
-                </div>
-                Webchat <a href="https://kraut.space/chat">kraut.space/chat</a> <br>
-                XMPP <a href="xmpp:krautchan@chat.krautspace.de">krautchan@chat.krautspace.de</a>
-            </div>
-            <div class="w3-border-bottom w3-padding-medium" id="github">
-                <div class="sidebar-heading">
-                    <div class="icondiv w3-circle"><img src="/kraut/img/icons/github-invers.svg" class="icon"></div>
-                    <h4>Github</h4>
-                </div>
-                <a href="https://github.com/HackspaceJena">github.com/HackspaceJena</a>
-            </div>
-            <div class="w3-border-bottom w3-padding-medium" id="twitter">
-                <div class="sidebar-heading">
-                    <div class="icondiv w3-circle"><img src="/kraut/img/icons/twitter.svg" class="icon"></div>
-                    <h4>Twitter</h4>
-                </div>
-                <a href="https://twitter.com/krautspace">twitter.com/krautspace</a>
-            </div>
             <div class="w3-border-bottom w3-padding-medium" id="email">
                 <div class="sidebar-heading">
-                    <div class="icondiv w3-circle"><img src="/kraut/img/icons/envelope.svg" class="icon"></div>
-                    <h4>Email</h4>
+                    <div class="icondiv w3-circle"><img src="/kraut/img/icons/lock.svg" class="icon"></div>
+                    <h4>PGP</h4>
                 </div>
-                <a href="email:office@krautspace.de">office@krautspace.de</a>
+                <a href="https://keybase.io/hackspace_jena">0x3D60AFE3AB3FAB6D</a>
+            </div>
+            <div class="w3-border-bottom w3-padding-medium" id="bankverbindung">
+                <div class="sidebar-heading">
+                    <div class="icondiv w3-circle"><img src="/kraut/img/icons/diamond.svg" class="icon"></div>
+                    <h4>Bankverbindung</h4>
+                </div>
+                <p>Inhaber: Hackspace Jena e.V.</br>
+                    IBAN: DE55 8309 4495 0003 1839 12</br>
+                    BIC: GENO DE F1 ETK</br>
+                    Bank: Ethikbank Eisenberg
+                </p>
             </div>
             <div class="w3-padding-medium" id="address">
                 <div class="sidebar-heading">
