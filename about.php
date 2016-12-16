@@ -9,39 +9,44 @@
     <link rel="stylesheet" href="styles.css">
     <meta name="description" content="Open space for open minds">
     <meta name="keywords" content="tech, hackerspace, hack">
-    <meta property="og:title" content="kraut.space" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://vincent-liu.me/kraut/" />
-    <meta property="og:description" content="Open space for open minds" />
-    <meta property="og:image" content="https://status.krautspace.de/images/krautspace_pixelicon_open.png" />
-    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="kraut.space"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://vincent-liu.me/kraut/"/>
+    <meta property="og:description" content="Open space for open minds"/>
+    <meta property="og:image" content="https://status.krautspace.de/images/krautspace_pixelicon_open.png"/>
+    <meta property="og:locale" content="en_US"/>
 </head>
 <body>
 <div class="w3-container w3-padding-large">
     <a href="/kraut"><img src="/kraut/img/krautspace.svg" id="subpagelogo"></a>
     <div id="subnavlinks" class="navlinks">
         <ul class="w3-hide-small">
-            <li><a href="/kraut/about"><span>About</span></a></li>
-            <li><a href="https://kraut.space">Wiki</a></li>
-            <li><a href="https://kraut.space/blog:start">Blog</a></li>
+            <li><a href="/kraut/verein">Verein</a></li>
+            <li><a href="/kraut/raum">Raum</a></li>
+            <li><a href="/kraut/termine">Termine</a></li>
+            <li><a href="https://kraut.space" class="external">Wiki</a></li>
+            <li><a href="https://kraut.space/blog:start" class="external">Blog</a></li>
         </ul>
     </div>
     <nav class="w3-dropdown-hover w3-right">
-        <button class="w3-btn w3-hide-medium w3-hide-large">Menu</button>
+        <button class="w3-btn">Menu</button>
         <div class="w3-dropdown-content w3-card-4">
-            <a href="/kraut">Home</a>
-            <a href="/kraut/about">About</a>
-            <a href="https://kraut.space">Wiki</a>
-            <a href="https://kraut.space/blog:start">Blog</a>
+            <a href="/kraut/verein">Verein</a>
+            <a href="/kraut/raum">Raum</a>
+            <a href="/kraut/termine">Termine</a>
+            <a href="https://kraut.space" class="external">Wiki</a>
+            <a href="https://kraut.space/blog:start" class="external">Blog</a>
         </div>
     </nav>
 </div>
-<div id="roombutton" class='w3-white'><?php getKrautButtonColor($status); ?><p><?php getKrautStatus($status); ?></p></div>
+<div id="roombutton" class='w3-white'><?php getKrautButtonColor($status); ?><p><?php getKrautStatus($status); ?></p>
+</div>
 <div class="w3-row w3-border-bottom w3-padding-large" id="body">
     <div class="w3-col l8 m7" id="content">
         <div class="w3-container w3-padding-xlarge">
             <h2>Der Hackspace Jena e.V.</h2>
-            <p>Der Verein Hackspace Jena e.V. fungiert als Trägerverein für den Hack(er)space in Jena und hat aktuell 49 Mitglieder (Stand 27. November 2016) und ist als gemeinnützig anerkannt.</p>
+            <p>Der Verein Hackspace Jena e.V. fungiert als Trägerverein für den Hack(er)space in Jena und hat aktuell 49
+                Mitglieder (Stand 27. November 2016) und ist als gemeinnützig anerkannt.</p>
 
             <h3>Vorstand</h3>
 
@@ -55,19 +60,24 @@
 
             <h3>Mitglied werden</h3>
 
-            <p>Um Mitglied zu werden, reicht eine schriftliche Willensbekundung gegenüber den Vorstand des Vereines — Im Idealfall über das ausgefüllte Mitgliedsformular, gesendet an die Postadresse. Durch eine Überweisung des Mitgliedsbeitrages und einer Bestätigung ist die Mitgliedschaft besiegelt.</p>
+            <p>Um Mitglied zu werden, reicht eine schriftliche Willensbekundung gegenüber den Vorstand des Vereines — Im
+                Idealfall über das ausgefüllte Mitgliedsformular, gesendet an die Postadresse. Durch eine Überweisung
+                des Mitgliedsbeitrages und einer Bestätigung ist die Mitgliedschaft besiegelt.</p>
 
             <h3>Kontaktmöglichkeiten</h3>
 
-            <p>Natürlich freuen wir uns auch über Post. Nur Werbung ist unerwünscht. Dabei kann die Post einfach an diese Adressen gesendet werden:</p>
+            <p>Natürlich freuen wir uns auch über Post. Nur Werbung ist unerwünscht. Dabei kann die Post einfach an
+                diese Adressen gesendet werden:</p>
 
             <p>Direkt an den Space: Hackspace Jena e. V.<br>
                 Krautgasse 26<br>
                 07743 Jena</p>
 
             <p>
-                Elektronische Post wird über office@hackspace-jena.de entgegen genommen - gerne auch mit PGP/GnuPG verschlüsselt und signiert.
-                Die aktuelle KeyID ist 0x3D60AFE3AB3FAB6D (Download), der komplette Fingerprint D492 6971 0FE3 D006 858A 3726 3D60 AFE3 AB3F AB6D.
+                Elektronische Post wird über office@hackspace-jena.de entgegen genommen - gerne auch mit PGP/GnuPG
+                verschlüsselt und signiert.
+                Die aktuelle KeyID ist 0x3D60AFE3AB3FAB6D (Download), der komplette Fingerprint D492 6971 0FE3 D006 858A
+                3726 3D60 AFE3 AB3F AB6D.
                 Für einen Erstkontakt kann auch dieser Service benutzt werden: https://encrypt.to/0x3D60AFE3AB3FAB6D
             </p>
 
@@ -125,7 +135,7 @@
                 </div>
                 <span>Hackspace Jena e. V.</br>
                     Krautgasse 26</br>
-                    07743 Jena<br />
+                    07743 Jena<br/>
 									</span>
             </div>
         </div>

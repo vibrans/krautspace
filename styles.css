@@ -7,7 +7,7 @@ header {
     background-color: #242943;
     color: white;
     text-transform: uppercase;
-    height:100vh;
+    height: 100vh;
 }
 
 header a {
@@ -43,6 +43,7 @@ nav div {
     background-color: #242943;
     min-height: 80vh;
 }
+
 /*#2a2f4a;*/
 footer {
     color: lightgrey;
@@ -50,7 +51,7 @@ footer {
 }
 
 ul, ol {
-    list-style-type:square;
+    list-style-type: square;
 }
 
 #header {
@@ -201,6 +202,12 @@ hr {
     display: inline;
     vertical-align: middle;
     margin-left: 8px;
+}
+
+.external {
+    background-color: white;
+    color: #242943;
+    padding: 2px 5px 2px 5px;
 }
 
 /*
