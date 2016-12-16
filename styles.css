@@ -1,0 +1,220 @@
+body {
+    color: white;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+header {
+    background-color: #242943;
+    color: white;
+    text-transform: uppercase;
+    height:100vh;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.2s ease-in-out;
+    display: inline;
+}
+
+#logo {
+    background-color: white;
+    color: #242943;
+    transition: background-color 0.2s ease-in-out;
+}
+
+header a:hover {
+    color: #9bf1ff;
+}
+
+header a:hover #logo {
+    background-color: #9bf1ff;
+}
+
+nav div {
+    right: 0;
+}
+
+#sidebar {
+    background-color: #242943;
+}
+
+#body {
+    background-color: #242943;
+    min-height: 80vh;
+}
+/*#2a2f4a;*/
+footer {
+    color: lightgrey;
+    background-color: #314159;
+}
+
+ul, ol {
+    list-style-type:square;
+}
+
+#header {
+    display: block;
+    margin-top: 30vh;
+}
+
+.topbartext {
+    font-size: 0.8em;
+}
+
+#slogan {
+    display: inline;
+    vertical-align: middle;
+}
+
+#enter {
+    /*display: inline-block;*/
+    margin-left: 8px;
+}
+
+#moreinfo {
+    background-color: #314159;
+    border-left: 16px solid lightgrey;
+}
+
+hr {
+    height: 3em;
+}
+
+#roombutton {
+    position: fixed;
+    bottom: 5vh;
+    right: 5vw;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    transition: width 0.8s ease;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+
+#roombutton:hover {
+    width: 230px;
+}
+
+#roombutton p {
+    display: inline;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: 10px;
+    color: white;
+    transition: color 0.7s ease 0.1s;
+}
+
+#roombutton:hover p {
+    color: #242943;
+}
+
+.krauticon {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    left: 5px;
+    top: 5px;
+}
+
+.icondiv {
+    vertical-align: middle;
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.icon {
+    position: relative;
+    height: 23px;
+    width: 23px;
+    left: 6px;
+    top: 6px;
+}
+
+#sidebar h4 {
+    display: inline;
+    vertical-align: middle;
+}
+
+.sidebar-heading {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#sidebar a {
+    text-decoration: none;
+    color: #a5b7e0
+}
+
+#subpagelogo {
+    height: 35px;
+    display: inline-block;
+}
+
+.navlinks {
+    display: inline-block;
+    float: right;
+}
+
+.navlinks ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.navlinks li {
+    display: inline;
+    margin-left: 15px;
+}
+
+.navlinks a {
+    text-decoration: none;
+}
+
+#subnavlinks {
+    padding-top: 5px;
+}
+
+#subnavlinks a {
+    color: black;
+    transition: color 0.2s ease-in-out;
+}
+
+#subnavlinks a:hover {
+    color: #9bf1ff;
+}
+
+#subnavlinks span {
+    color: #9bf1ff;
+}
+
+#textlogo {
+    display: inline-block;
+}
+
+#bankverbindung {
+    display: inline;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+/*
+#bar {
+    position: fixed;
+    top: 0;
+    background-color: #242943;
+}
+*/
+/*
+.fa-users {
+    color: #242943;
+}
+.fa-user-times {
+    color: #242943;
+}*/
+/*padding: 4em 0 2em 0;*/
