@@ -1,0 +1,71 @@
+
+* Kopfzeile
+
+  kraut.space
+
+  - Raum
+  - Termine
+  - Verein
+  - Wiki
+  - Blog
+
+* Inhalt  (TODO)
+
+  - Der Hackspace Jena e.V.
+
+    Der Verein Hackspace Jena e.V. fungiert als Trägerverein für den
+    Hack(er)space in Jena und hat aktuell 49 Mitglieder
+    (Stand 27. November 2016) und ist als gemeinnützig anerkannt.
+
+    - Vorstand
+
+      Der Vorstand des Vereines besteht aktuell aus:
+
+      Jens Kubieziel (Vorsitzender)
+      Johanna Schell (Schriftführer)
+      Bernd Kampe (Schatzmeister)
+
+    - Mitglied werden
+
+      Um Mitglied zu werden, reicht eine schriftliche Willensbekundung
+      gegenüber den Vorstand des Vereines — Im Idealfall über das
+      ausgefüllte Mitgliedsformular, gesendet an die
+      Postadresse. Durch eine Überweisung des Mitgliedsbeitrages und
+      einer Bestätigung ist die Mitgliedschaft besiegelt.
+
+    - Kontaktmöglichkeiten
+
+      Natürlich freuen wir uns auch über Post an unsere Adresse. Nur
+      Werbung ist unerwünscht.
+
+      Elektronische Post wird über die E-Mailadresse
+      <mailto:office@krautspace.de>,gerne auch mit PGP/GnuPG
+      verschlüsselt und signiert, entgegen genommen. Der komplette
+      Fingerprint ist D492 6971 0FE3 D006 858A 3726 3D60 AFE3 AB3F
+      AB6D. Für einen Erstkontakt kann auch der Service von [[https://encrypt.to/0x3D60AFE3AB3FAB6D][encrypt.to]]
+      verwendet werden.  (TODO ext-Link)
+
+* Sidebar
+
+  - PGP
+    key 0x3D60AFE3AB3FAB6D (TODO aktuell?)
+
+  - Bankverbindung
+    - Inhaber: Hackspace Jena e.V.
+    - IBAN: DE55 8309 4495 0003 1839 12
+    - BIC: GENO DE F1 ETK
+    - Bank: Ethikbank Eisenberg  
+
+   - Adresse
+     - Hackspace Jena e. V.
+     - Krautgasse 26
+     - 07743 Jena
+
+* Raumbutton ??
+
+  - Raum ist geschlossen
+  - Raum ist offen
+
+* Fußzeile
+  kraut.space ©2016 Hackspace Jena e. V. · Kolophon
+

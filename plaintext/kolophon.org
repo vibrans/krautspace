@@ -1,0 +1,7 @@
+
+
+  - Das Schriftlogo basiert auf der kostenlosen Schrift 
+    [[http://www.dafont.com/de/vikas-kumar.d3807][squared display]] von
+    [[https://www.behance.net/vikaskumar][Vikas Kumar]]
+
+  - Die verwendendeten Icons wurden aus dem [[https://github.com/encharm/Font-Awesome-SVG-PNG][FontAwesome-Github-Repo]] (MIT-Lizenz) genommen und farblich angepasst.

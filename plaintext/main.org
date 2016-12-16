@@ -1,0 +1,98 @@
+
+* Kopfzeile
+
+  KRAUT.SPACE die digitale Residenz des Hackspace Jena e. V.
+
+  - Buttons:
+    - [Termine]
+    - [Verein]
+    - [Raum]
+    - [Wiki]
+    - [Blog]
+
+* Inhalt
+
+ 1) 
+    - kraut.space
+    - --------------
+    - ein Raum in Jena für die analogen Kreaturen des Cyberspace
+    - Was Bitte? ->  | mehr ->
+
+ 2) 
+    - Was ist der Krautspace? (Additional Information)
+    - Der Hackspace Jena e. V. ist ein gemeinnützer Verein zur kulturellen und technischen Austausch.
+    - Mehr Informationen über unsere Aktivitäten findet ihr in unserem Wiki oder unserem Blog.
+    - [WIKI] [BLOG]
+
+ 3) Nächste Termine
+
+    - Montag 12.03.2014   Eierlaufen
+    - Mit Löffeln bewaffenet balancieren wir Eier um die Wette.
+
+    - Dienstag 17.06.2015 Frisur für Gecko
+    - Gecko bekommt eine neue Frisur
+
+    - Mittwoch 18.06.2015 Großes Aufräumen
+    - Gemeinsame Beseitigung der Schäden durch die Veranstaltung vom
+      Vortag.
+
+    - weitere Termine in unserem Kalender ->
+
+    (max 5 Termine in die Zukunft)
+
+ 4) 
+    - Krautspace-Blog
+
+    - Fnord am 17.6.2015 Geckos neue Frisur
+    - Gecko enzufangen war eine Qual er hielt nicht still.  Das
+      Ergebnis ist entsprechen schlecht. Der Hackpace sieht …
+      [weiterlesen]
+  
+    - Mehr in unserem [Blog]
+
+    (nicht älter als 4 Monate aber mindestens einer, maximal 3)
+
+* Sidebar
+
+  1) 
+     - niemand ist im Raum
+       - keine Hackerseele anwesend
+
+     oder
+
+     - Raum ist geöffnet
+       - schaut einfach vorbei
+
+  2) 
+     - XMPP
+       - MUC krautchan@chat.krautspace.de 
+       - Webchat kraut.space/chat
+
+  3) 
+     - Github
+       - github.com/HackpspaceJena
+
+  4) 
+     - Twitter
+       - twitter.com/krautspace
+
+  5) 
+     - E-Mail
+       - office@krautspace.de
+       - (office@kraut.space?)
+
+  6) 
+     - Adresse
+       - Hackspace Jena e. V.
+       - Krautgasse 26
+       - 07743 Jena
+ 
+* Raumbutton
+
+  - Raum ist geschlossen
+  - Raum ist offen
+
+* Fußzeile
+
+  kraut.space ©2016 Hackspace Jena e. V. · Kolophon
+
