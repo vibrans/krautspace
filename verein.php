@@ -89,7 +89,7 @@
                     <div class="icondiv w3-circle"><img src="/kraut/img/icons/lock.svg" class="icon"></div>
                     <h4>PGP</h4>
                 </div>
-                <a href="https://keybase.io/hackspace_jena">0x3D60AFE3AB3FAB6D</a>
+                <p>key <a href="https://keybase.io/hackspace_jena">0x3D60AFE3AB3FAB6D</a></p>
             </div>
             <div class="w3-border-bottom w3-padding-medium" id="bankverbindung">
                 <div class="sidebar-heading">
