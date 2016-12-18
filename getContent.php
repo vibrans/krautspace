@@ -33,17 +33,17 @@ function apiRequest()
 
 function getKrautButtonColor($status) {
     if ($status) {
-        echo "<img src='/kraut/img/icons/users.svg' class='krauticon'>";
+        echo "<img src='/kraut/img/icons/users.svg' id='krauticon'>";
     } else {
-        echo "<img src='/kraut/img/icons/user-times.svg' class='krauticon'>";
+        echo "<img src='/kraut/img/icons/user-times.svg' id='krauticon'>";
     }
 }
 
 function getKrautStatus($status) {
     if ($status) {
-        echo "kraut.space ist offen";
+        echo "Raum ist offen";
     } else {
-        echo "kraut.space ist zu";
+        echo "Raum ist geschlossen";
     }
 }
 
@@ -53,7 +53,8 @@ function getKrautSidebar($status)
         echo <<<END
 <div class="sidebar-heading">
 <div class="icondiv w3-circle"><img src="/kraut/img/icons/users.svg" class="icon"></div>
-<h4>kraut.space ist offen</h4>
+<h4>Raum ist geöffnet</h4>
+<p>Schaut einfach vorbei</p>
 </div>
 END;
 
@@ -61,7 +62,28 @@ END;
         echo <<<END
 <div class="sidebar-heading">
 <div class="icondiv w3-circle"><img src="/kraut/img/icons/user-times.svg" class="icon"></div>
-<h4>kraut.space ist zu</h4>
+<h4>Niemand ist im Raum</h4>
+<p>Keine Hackerseele anwesend</p>
+</div>
+END;
+    }
+}
+
+function getKrautButton($status)
+{
+    if ($status) {
+        echo <<<END
+<div id="roombutton" class='krautopen'>
+<img src='/kraut/img/icons/users.svg' id='krauticon'>
+<p>Raum ist offen</p>
+</div>
+END;
+
+    } else {
+        echo <<<END
+<div id="roombutton" class='krautclose'>
+<img src='/kraut/img/icons/user-times.svg' id='krauticon'>
+<p>Raum ist zu</p>
 </div>
 END;
     }

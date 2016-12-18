@@ -93,11 +93,12 @@ hr {
     display: inline-block;
     overflow: hidden;
     white-space: nowrap;
+    background-color: white;
 
 }
 
 #roombutton:hover {
-    width: 230px;
+    width: 200px;
 }
 
 #roombutton p {
@@ -113,7 +114,7 @@ hr {
     color: #242943;
 }
 
-.krauticon {
+#krauticon {
     position: relative;
     height: 30px;
     width: 30px;
@@ -202,6 +203,10 @@ hr {
     background-color: white;
     color: #242943;
     padding: 2px 5px 2px 5px;
+}
+
+.divline {
+    border-top: 3px solid white;
 }
 
 /*
