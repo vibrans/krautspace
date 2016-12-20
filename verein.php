@@ -116,7 +116,7 @@
     </div>
 </div>
 <footer class="w3-container w3-center w3-padding-small">
-    <p>kraut.space &copy; 2016 Hackspace Jena e.V.</p>
+    <p>kraut.space ©2016 Hackspace Jena e. V. · <a href="/kraut/kolophon">Kolophon</a></p>
 </footer>
 </body>
 </html>
