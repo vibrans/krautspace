@@ -45,7 +45,7 @@
     <div class="w3-container w3-padding-xlarge" id="content">
         <div class="w3-responsive">
         <?php
-        require_once 'getCalandar.php';
+        require_once 'getCalendar.php';
         printEvents('class="w3-table w3-bordered"');
         ?>
         </div>
