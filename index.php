@@ -22,7 +22,7 @@
         <div id="textlogo">
             <a href="/kraut/" class="topbartext"><span id="logo"
                                                        class="w3-padding-small"><strong>kraut.space</strong></span>
-                <span class="w3-hide-small">Die digitale Residenz des Hackspace Jena e. V.</span></a>
+                <span class="w3-hide-small">Die digitale Residenz des Hackspace Jena e.&thinsp;V.</span></a>
         </div>
         <div class="navlinks">
             <ul class="w3-hide-small">
@@ -47,7 +47,7 @@
     <div id="header">
         <div class="w3-container">
             <img src="/kraut/img/krautspace-invers.svg" class="w3-image">
-            <div class="w3-margin-top w3-margin-bottom" class="divline"></div>
+            <div class="w3-margin-top w3-margin-bottom divline"></div>
             <p id="slogan">Ein Raum in Jena für die analogen Kreaturen des Cyberspace</p>
             <a href="#moreinfo" class="w3-btn w3-indigo w3-side" id="enter">Enter &#8628;</a>
         </div>
@@ -57,7 +57,7 @@
 <div class="w3-row w3-padding-large" id="moreinfo">
     <div class="w3-container w3-padding-large">
         <h2>Was ist der Krautspace?</h2>
-        <p>Der Hackspace Jena e. V. ist ein gemeinnützer Verein zur kulturellen und technischen Austausch.</p>
+        <p>Der Hackspace Jena e.&thinsp;V. ist ein gemeinnützer Verein zur kulturellen und technischen Austausch.</p>
         <p>Mehr Informationen über unsere Aktivitäten findet ihr in unserem Wiki oder unserem Blog.</p>
         <a href="https://wiki.kraut.space/start" class="w3-btn w3-indigo w3-wide">Wiki</a>
         <a href="https://blog.kraut.space/start" class="w3-btn w3-indigo w3-wide">Blog</a>
@@ -113,7 +113,7 @@
                     <div class="icondiv w3-circle"><img src="/kraut/img/icons/home.svg" class="icon"></div>
                     <h4>Physical</h4>
                 </div>
-                <span>Hackspace Jena e. V.</br>
+                <span>Hackspace Jena e.&thinsp;V.</br>
                     Krautgasse 26</br>
                     07743 Jena<br/>
 									</span>
@@ -122,7 +122,7 @@
     </div>
 </div>
 <footer class="w3-container w3-center w3-padding-small">
-    <p>kraut.space ©2016 Hackspace Jena e. V. · <a href="/kraut/kolophon">Kolophon</a></p>
+    <p>kraut.space ©2016 Hackspace Jena e.&thinsp;V. · <a href="/kraut/kolophon">Kolophon</a></p>
 </footer>
 </body>
 </html>

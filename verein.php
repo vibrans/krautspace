@@ -69,7 +69,7 @@
             <p>Natürlich freuen wir uns auch über Post. Nur Werbung ist unerwünscht. Dabei kann die Post einfach an
                 diese Adressen gesendet werden:</p>
 
-            <p>Direkt an den Space: Hackspace Jena e. V.<br>
+            <p>Direkt an den Space: Hackspace Jena e.&thinsp;V.<br>
                 Krautgasse 26<br>
                 07743 Jena</p>
 
@@ -107,7 +107,7 @@
                     <div class="icondiv w3-circle"><img src="/kraut/img/icons/home.svg" class="icon"></div>
                     <h4>Physical</h4>
                 </div>
-                <span>Hackspace Jena e. V.</br>
+                <span>Hackspace Jena e.&thinsp;V.</br>
                     Krautgasse 26</br>
                     07743 Jena<br/>
 									</span>
@@ -116,7 +116,7 @@
     </div>
 </div>
 <footer class="w3-container w3-center w3-padding-small">
-    <p>kraut.space ©2016 Hackspace Jena e. V. · <a href="/kraut/kolophon">Kolophon</a></p>
+    <p>kraut.space ©2016 Hackspace Jena e.&thinsp;V. · <a href="/kraut/kolophon">Kolophon</a></p>
 </footer>
 </body>
 </html>
