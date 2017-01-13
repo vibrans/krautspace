@@ -39,7 +39,6 @@
         </div>
     </nav>
 </div>
-</div>
 <div class="w3-row w3-border-bottom w3-padding-large" id="body">
     <div id="content">
         <div class="w3-container w3-padding-xlarge">
