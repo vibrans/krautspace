@@ -2,68 +2,151 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    color: white;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+* {
+    box-sizing: border-box;
 }
 
+body {
+    color: white;
+    font-family: Helvetica, "Lucida Grande", sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: "Segoe UI", Helvetica, "Lucida Grande", sans-serif;
+}
+
+.button {
+    display: inline-block;
+    padding: 6px 16px;
+    vertical-align: middle;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: box-shadow .15s;
+    color: white;
+    background-color: #3f51b5;
+}
+
+.button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text-wide {
+    letter-spacing: 2px;
+}
+
+/* Landing page */
+
 header {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 32px;
     background-color: #242943;
     color: white;
     height: 100vh;
 }
 
-header a {
+/* navbar */
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar a {
     text-decoration: none;
     color: inherit;
     transition: color 0.2s ease-in-out;
     display: inline;
 }
 
-#logo {
-    background-color: white;
-    color: #242943;
-    transition: background-color 0.2s ease-in-out;
+#navbar a:hover {
+    color: #9bf1ff !important;
 }
 
-header a:hover {
-    color: #9bf1ff;
-}
-
-header a:hover #logo {
+#navbar a:hover #textlogo {
     background-color: #9bf1ff;
 }
 
-nav div {
-    right: 0;
+@media screen and (max-width: 790px) {
+    #tagline {
+        display: none;
+    }
 }
 
-#sidebar {
-    background-color: #242943;
+#branding {
+    order: 1;
 }
 
-#body {
-    background-color: #242943;
-    min-height: 80vh;
+#textlogo {
+    background-color: white;
+    color: #242943;
+    padding: 4px 8px;
+    transition: background-color 0.2s ease-in-out;
 }
 
-/*#2a2f4a;*/
-footer {
-    color: lightgrey;
-    background-color: #314159;
-}
-
-ul, ol {
-    list-style-type: square;
-}
-
-#header {
-    display: block;
-    margin-top: 30vh;
+@media only screen and (max-width: 480px) {
+    #navbar {
+        justify-content: center;
+    }
+    #textlogo {
+        display: none;
+    }
 }
 
 .topbartext {
     font-size: 0.8em;
+}
+
+nav {
+    order: 2;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.external {
+    background-color: white;
+    padding: 2px 5px 2px 5px;
+    color: #242943 !important;
+}
+
+/* Landing page content */
+
+#headcontent {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+    margin-left: 5vw;
+}
+
+#title {
+    width: 100%;
+}
+
+#logo {
+    max-width: 100%;
+    height: auto;
+}
+
+#line {
+    border-top: 3px solid white;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 #slogan {
@@ -72,74 +155,55 @@ ul, ol {
 }
 
 #enter {
-    /*display: inline-block;*/
     margin-left: 8px;
 }
+
+/* More info */
 
 #moreinfo {
     background-color: #314159;
     border-left: 16px solid lightgrey;
+    padding: 24px 48px;
 }
 
-hr {
-    height: 3em;
+/* Main content */
+
+#body {
+    display: flex;
+    padding: 12px 24px;
+    background-color: #242943;
+    min-height: 80vh;
 }
 
-#roombutton {
-    position: fixed;
-    bottom: 5vh;
-    right: 5vw;
-    height: 40px;
-    width: 40px;
-    border-radius: 40px;
-    transition: width 0.8s ease;
-    display: inline-block;
-    overflow: hidden;
-    white-space: nowrap;
-    background-color: white;
-
+@media only screen and (max-width: 700px) {
+    #body {
+        flex-direction: column;
+    }
 }
 
-#roombutton:hover {
-    width: 200px;
+/* Events */
+
+#content {
+    flex: 4;
+    padding: 16px 32px;
 }
 
-#roombutton p {
-    display: inline;
-    white-space: nowrap;
-    overflow: hidden;
-    margin-left: 10px;
-    color: white;
-    transition: color 0.7s ease 0.1s;
+.event {
+    margin: 1em 0 1em 0;
 }
 
-#roombutton:hover p {
-    color: #242943;
+.event p {
+    margin-left: 1em;
+    margin-top: 0.3em;
+    color: lightgray;
 }
 
-#krauticon {
-    position: relative;
-    height: 30px;
-    width: 30px;
-    left: 5px;
-    top: 5px;
-}
+/* Sidebar */
 
-.icondiv {
-    vertical-align: middle;
-    height: 35px;
-    width: 35px;
-    background-color: white;
-    display: inline-block;
-    margin-right: 4px;
-}
-
-.icon {
-    position: relative;
-    height: 23px;
-    width: 23px;
-    left: 6px;
-    top: 6px;
+#sidebar {
+    flex: 1;
+    background-color: #242943;
+    padding: 12px 24px;
 }
 
 #sidebar h4 {
@@ -157,73 +221,80 @@ hr {
     color: #a5b7e0
 }
 
-#subpagelogo {
+.sidebar-item {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ccc;
+}
+
+.last-item {
+    border-bottom: 0;
+}
+
+.icondiv {
+    border-radius: 50%;
+    vertical-align: middle;
     height: 35px;
-    display: inline-block;
-}
-
-.navlinks {
-    display: inline-block;
-    float: right;
-}
-
-.navlinks ul {
-    list-style-type: none;
-    margin: 0;
-}
-
-.navlinks li {
-    display: inline;
-    margin-left: 15px;
-}
-
-.navlinks a {
-    text-decoration: none;
-}
-
-#subnavlinks {
-    padding-top: 5px;
-}
-
-#subnavlinks a {
-    color: black;
-    transition: color 0.2s ease-in-out;
-}
-
-#subnavlinks a:hover {
-    color: #9bf1ff;
-}
-
-#subnavlinks span {
-    color: #9bf1ff;
-}
-
-#textlogo {
-    display: inline-block;
-}
-
-.external {
+    width: 35px;
     background-color: white;
-    color: #242943;
-    padding: 2px 5px 2px 5px;
+    display: inline-block;
+    margin-right: 4px;
 }
 
-.divline {
-    border-top: 3px solid white;
+.icon {
+    position: relative;
+    height: 23px;
+    width: 23px;
+    left: 6px;
+    top: 6px;
 }
 
-/*
-#bar {
+/* Footer */
+
+footer {
+    color: lightgrey;
+    background-color: #314159;
+    text-align: center;
+    padding: 4px 8px;
+    border-top: 1px solid #ccc;
+}
+
+/* Room status button */
+
+#roombutton {
     position: fixed;
-    top: 0;
-    background-color: #242943;
+    bottom: 5vh;
+    right: 5vw;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    transition: width 0.8s ease;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: white;
 }
-*/
-/*
-.fa-users {
+
+#roombutton:hover {
+    width: 160px;
+}
+
+#roombutton p {
+    display: inline;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: 10px;
+    color: white;
+    transition: color 0.7s ease 0.1s;
+}
+
+#roombutton:hover p {
     color: #242943;
 }
-.fa-user-times {
-    color: #242943;
-}*/
-/*padding: 4em 0 2em 0;*/
+
+#roomicon {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    left: 5px;
+    top: 5px;
+}

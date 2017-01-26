@@ -46,7 +46,7 @@
         <div class="w3-responsive">
         <?php
         require_once 'getCalendar.php';
-        printEvents('class="w3-table w3-bordered"');
+        printEventTable('class="w3-table w3-bordered"');
         ?>
         </div>
     </div>

@@ -44,7 +44,7 @@
 <div class="w3-row w3-border-bottom w3-padding-large" id="body">
     <div class="w3-col l8 m7" id="content">
         <div class="w3-container w3-padding-xlarge">
-            <h2>Der Hackspace Jena e.V.</h2>
+            <h2>Der Hackspace Jena e.&thinsp;V.</h2>
             <p>Der Verein Hackspace Jena e.V. fungiert als Trägerverein für den Hack(er)space in Jena und hat aktuell 49
                 Mitglieder (Stand 27. November 2016) und ist als gemeinnützig anerkannt.</p>
 

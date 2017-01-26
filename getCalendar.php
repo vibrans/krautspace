@@ -11,7 +11,7 @@ function getEvents()
     return $events;
 }
 
-function printEvents($attr) {
+function printEventTable($attr) {
     $iCal = new \ICal\ICal();
     $iCal->initURL('https://calcifer.datenknoten.me/tags/krautspace.ics');
     $events = $iCal->eventsFromInterval('1 week');
@@ -26,9 +26,10 @@ function printEvents($attr) {
   </tr>
 _END;
     foreach ($events as $event) {
-        $event_date = date('d.m.Y', $iCal->iCalDateToUnixTimestamp($event->dtstart, false));
-        $event_time = date('H:i', $iCal->iCalDateToUnixTimestamp($event->dtstart, false));
-        $event_dayofweek = toGerman(date('l', $iCal->iCalDateToUnixTimestamp($event->dtstart, false)));
+        $unix = $iCal->iCalDateToUnixTimestamp($event->dtstart, false);
+        $event_date = date('d.m.', $unix);
+        $event_time = date('H:i', $unix);
+        $event_dayofweek = toGerman(date('l', $unix));
         $event_title = $event->summary;
         $event_description = $event->description;
         echo <<<_END
@@ -42,6 +43,24 @@ _END;
 _END;
     }
     echo '</table>';
+}
+
+function printEvents() {
+    $iCal = new \ICal\ICal();
+    $iCal->initURL('https://calcifer.datenknoten.me/tags/krautspace.ics');
+    $events = $iCal->eventsFromInterval('1 week');
+    foreach ($events as $event) {
+        $unix = $iCal->iCalDateToUnixTimestamp($event->dtstart, false);
+        $event_datetime = date(' d.m. H:i', $unix);
+        $event_dayofweek = toGerman(date('l', $unix));
+        $event_description = $event->description;
+        $output = $event_dayofweek . $event_datetime . ' — ' . $event->summary;
+        echo "<div class='event'><span>$output</span><p>$event_description</p></div>";
+    }
+}
+
+function pad($s) {
+    return ' '.$s.' ';
 }
 
 function toGerman($day) {
