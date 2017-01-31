@@ -34,7 +34,7 @@
     </div>
     <div id="headcontent">
         <div id="title">
-            <img src="/kraut/img/krautspace-invers.svg" id="logo">
+            <img src="/kraut/img/krautspace-invers.svg"alt="kraut.space logo" id="logo">
             <div id="line"></div>
             <p id="slogan">Ein Raum in Jena für die analogen Kreaturen des Cyberspace</p>
             <a href="#moreinfo" class="button" id="enter">Enter &#8628;</a>
