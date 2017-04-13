@@ -6,7 +6,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index2.css">
     <meta name="description" content="Open space for open minds">
     <meta name="keywords" content="tech, hackerspace, hack">
     <meta property="og:title" content="kraut.space"/>
@@ -82,7 +82,7 @@
             </p>
         </div>
     </div>
-    <div class="w3-col l4 m5" id="sidebar">
+    <aside class="w3-col l4 m5">
         <div class="w3-container w3-padding-large">
             <div class="w3-border-bottom w3-padding-medium" id="email">
                 <div class="sidebar-heading">
@@ -113,7 +113,7 @@
 									</span>
             </div>
         </div>
-    </div>
+    </aside>
 </div>
 <footer class="w3-container w3-center w3-padding-small">
     <p>kraut.space ©2016 Hackspace Jena e.&thinsp;V. · <a href="/kraut/kolophon">Kolophon</a></p>

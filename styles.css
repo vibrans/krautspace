@@ -154,10 +154,6 @@ nav a {
     vertical-align: middle;
 }
 
-#enter {
-    margin-left: 8px;
-}
-
 /* More info */
 
 #moreinfo {
@@ -200,13 +196,13 @@ nav a {
 
 /* Sidebar */
 
-#sidebar {
+aside {
     flex: 1;
     background-color: #242943;
     padding: 12px 24px;
 }
 
-#sidebar h4 {
+aside h4 {
     display: inline;
     vertical-align: middle;
 }
@@ -216,7 +212,7 @@ nav a {
     margin-bottom: 8px;
 }
 
-#sidebar a {
+aside a {
     text-decoration: none;
     color: #a5b7e0
 }

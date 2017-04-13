@@ -1,19 +1,19 @@
 <!DOCTYPE HTML>
-<html lang="de-DE">
+<html lang="de">
 <?php include_once 'getContent.php'; ?>
 <head>
     <title>kraut.space</title>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="stylesheet" href="styles.css">
-    <meta name="description" content="Open space for open minds">
-    <meta name="keywords" content="tech, hackerspace, hack">
-    <meta property="og:title" content="kraut.space"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content="http://vincent-liu.me/kraut/"/>
-    <meta property="og:description" content="Open space for open minds"/>
-    <meta property="og:image" content="https://status.krautspace.de/images/krautspace_pixelicon_open.png"/>
-    <meta property="og:locale" content="de_DE"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="description" content="Open space for open minds" />
+    <meta name="keywords" content="tech, hackerspace, hack" />
+    <meta property="og:title" content="kraut.space" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://vincent-liu.me/kraut/" />
+    <meta property="og:description" content="Open space for open minds" />
+    <meta property="og:image" content="https://status.krautspace.de/images/krautspace_pixelicon_open.png" />
+    <meta property="og:locale" content="de_DE" />
 </head>
 <body>
 <header>
@@ -34,10 +34,9 @@
     </div>
     <div id="headcontent">
         <div id="title">
-            <img src="/kraut/img/krautspace-invers.svg"alt="kraut.space logo" id="logo">
+            <img src="/kraut/img/krautspace-invers.svg" alt="kraut.space logo" id="logo" />
             <div id="line"></div>
             <p id="slogan">Ein Raum in Jena für die analogen Kreaturen des Cyberspace</p>
-            <a href="#moreinfo" class="button" id="enter">Enter &#8628;</a>
         </div>
     </div>
 </header>
@@ -55,54 +54,58 @@
         <div id="events">
             <?php
             require_once 'getCalendar.php';
-            printEvents();
+            try {
+                printEvents();
+            } catch (Exception $e) {
+                echo "<p>Es gibt leider jetzt ein Fehler beim parsen der .ics Datei</p>";
+            }
             ?>
         </div>
     </div>
-    <div id="sidebar">
+    <aside>
         <div class="sidebar-item" id="krautstatus">
             <?php getKrautSidebar($status); ?>
         </div>
         <div class="sidebar-item" id="xmpp">
             <div class="sidebar-heading">
-                <div class="icondiv"><img src="/kraut/img/icons/lightbulb-o.svg" class="icon"></div>
+                <div class="icondiv"><img src="/kraut/img/icons/lightbulb-o.svg" class="icon" alt="Glühbirne" /></div>
                 <h4>XMPP</h4>
             </div>
-            MUC <a href="xmpp:krautchan@chat.krautspace.de">krautchan@chat.krautspace.de</a><br>
+            MUC <a href="xmpp:krautchan@chat.krautspace.de">krautchan@chat.krautspace.de</a><br />
             Webchat <a href="https://kraut.space/chat">kraut.space/chat</a>
         </div>
         <div class="sidebar-item" id="github">
             <div class="sidebar-heading">
-                <div class="icondiv"><img src="/kraut/img/icons/github-invers.svg" class="icon"></div>
+                <div class="icondiv"><img src="/kraut/img/icons/github-invers.svg" class="icon" alt="Github logo" /></div>
                 <h4>Github</h4>
             </div>
             <a href="https://github.com/HackspaceJena">github.com/HackspaceJena</a>
         </div>
         <div class="sidebar-item" id="twitter">
             <div class="sidebar-heading">
-                <div class="icondiv"><img src="/kraut/img/icons/twitter.svg" class="icon"></div>
+                <div class="icondiv"><img src="/kraut/img/icons/twitter.svg" class="icon" alt="Twitter logo" /></div>
                 <h4>Twitter</h4>
             </div>
             <a href="https://twitter.com/krautspace">twitter.com/krautspace</a>
         </div>
         <div class="sidebar-item" id="email">
             <div class="sidebar-heading">
-                <div class="icondiv"><img src="/kraut/img/icons/envelope.svg" class="icon"></div>
+                <div class="icondiv"><img src="/kraut/img/icons/envelope.svg" class="icon" alt="Briefumschlag" /></div>
                 <h4>Email</h4>
             </div>
             <a href="email:office@krautspace.de">office@krautspace.de</a>
         </div>
         <div class="sidebar-item last-item" id="address">
             <div class="sidebar-heading">
-                <div class="icondiv"><img src="/kraut/img/icons/home.svg" class="icon"></div>
+                <div class="icondiv"><img src="/kraut/img/icons/home.svg" class="icon" alt="Haus" /></div>
                 <h4>Physical</h4>
             </div>
-            <span>Hackspace Jena e.&thinsp;V.</br>
-                Krautgasse 26</br>
-                07743 Jena<br/>
+            <span>Hackspace Jena e.&thinsp;V.<br />
+                Krautgasse 26<br />
+                07743 Jena<br />
 									</span>
         </div>
-    </div>
+    </aside>
 </div>
 <footer>
     <p>kraut.space ©2016 Hackspace Jena e.&thinsp;V. · <a href="/kraut/kolophon">Kolophon</a></p>

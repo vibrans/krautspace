@@ -6,7 +6,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index2.css">
     <meta name="description" content="Open space for open minds">
     <meta name="keywords" content="tech, hackerspace, hack">
     <meta property="og:title" content="kraut.space"/>
