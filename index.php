@@ -7,12 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="styles.css" />
     <meta name="description" content="Open space for open minds" />
-    <meta name="keywords" content="tech, hackerspace, hack" />
+    <meta name="keywords" content="tech, hackerspace, jena" />
     <meta property="og:title" content="kraut.space" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://vincent-liu.me/kraut/" />
     <meta property="og:description" content="Open space for open minds" />
-    <meta property="og:image" content="https://status.krautspace.de/images/krautspace_pixelicon_open.png" />
+    <meta property="og:image" content="http://vincent-liu.me/kraut/img/krauticon.png" />
     <meta property="og:locale" content="de_DE" />
 </head>
 <body>
@@ -41,27 +41,27 @@
     </div>
 </header>
 <?php getKrautButton($status); ?>
-<div id="moreinfo">
+<section id="moreinfo">
     <h2>Was ist der Krautspace?</h2>
     <p>Der Hackspace Jena e.&thinsp;V. ist ein gemeinnützer Verein zur kulturellen und technischen Austausch.</p>
     <p>Mehr Informationen über unsere Aktivitäten findet ihr in unserem Wiki oder unserem Blog.</p>
     <a href="https://wiki.kraut.space/start" class="button text-wide">Wiki</a>
     <a href="https://blog.kraut.space/start" class="button text-wide">Blog</a>
-</div>
-<div id="body">
-    <div id="content">
+</section>
+<section id="body">
+    <main id="content">
         <h2>Nächste Termine</h2>
         <div id="events">
             <?php
             require_once 'getCalendar.php';
             try {
                 printEvents();
-            } catch (Exception $e) {
+            } catch (Error $e) {
                 echo "<p>Es gibt leider jetzt ein Fehler beim parsen der .ics Datei</p>";
             }
             ?>
         </div>
-    </div>
+    </main>
     <aside>
         <div class="sidebar-item" id="krautstatus">
             <?php getKrautSidebar($status); ?>
@@ -106,7 +106,7 @@
 									</span>
         </div>
     </aside>
-</div>
+</section>
 <footer>
     <p>kraut.space ©2016 Hackspace Jena e.&thinsp;V. · <a href="/kraut/kolophon">Kolophon</a></p>
 </footer>

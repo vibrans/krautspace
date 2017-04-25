@@ -2,19 +2,19 @@
 <html>
 <?php include_once 'getContent.php'; ?>
 <head>
-    <title>kraut.space</title>
+    <title>kraut.space - Verein</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-    <link rel="stylesheet" href="index2.css">
+    <link rel="stylesheet" href="subpage.css">
     <meta name="description" content="Open space for open minds">
     <meta name="keywords" content="tech, hackerspace, hack">
     <meta property="og:title" content="kraut.space"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="http://vincent-liu.me/kraut/"/>
     <meta property="og:description" content="Open space for open minds"/>
-    <meta property="og:image" content="https://status.krautspace.de/images/krautspace_pixelicon_open.png"/>
-    <meta property="og:locale" content="en_US"/>
+    <meta property="og:image" content="http://vincent-liu.me/kraut/img/krauticon.png"/>
+    <meta property="og:locale" content="de_DE"/>
 </head>
 <body>
 <div class="w3-container w3-padding-large">

@@ -85,7 +85,6 @@ function toGerman($day) {
             break;
         case 'Sunday':
             return 'Sonntag';
-            return;
         default:
             return '?';
     }
