@@ -5,7 +5,7 @@
     <title>kraut.space - Verein</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="w3.css">
     <link rel="stylesheet" href="subpage.css">
     <meta name="description" content="Open space for open minds">
     <meta name="keywords" content="tech, hackerspace, hack">

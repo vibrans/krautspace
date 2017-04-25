@@ -5,7 +5,7 @@
     <title>kraut.space - Raum</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="w3.css">
     <link rel="stylesheet" href="subpage.css">
     <meta name="description" content="Open space for open minds">
     <meta name="keywords" content="tech, hackerspace, hack">
@@ -45,7 +45,7 @@
     <div class="w3-col l8 m7" id="content">
         <div class="w3-container w3-padding-xlarge">
             <h2>Krautspace</h2>
-            <a href="http://www.openstreetmap.org/node/1875593753"><img src="/kraut/img/lageplan.svg" id="map"></a>
+            <a href="http://www.openstreetmap.org/node/1875593753" target="_blank"><img src="/kraut/img/lageplan.svg" id="map"></a>
         </div>
     </div>
     <aside class="w3-col l4 m5">
@@ -63,7 +63,7 @@
             <div class="w3-padding-medium" id="bus">
                 <div class="sidebar-heading">
                     <div class="icondiv w3-circle" id="mapicon">H</div>
-                    <h4>Haltestelle</h4>
+                    <h4>Haltestellen</h4>
                 </div>
                 <p>Linie 5 - Ernst-Abbe-Platz</p>
                 <p>Linie 16 - Johannisplatz</p>
