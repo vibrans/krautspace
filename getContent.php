@@ -4,13 +4,13 @@
  * Date: 14/12/2016
  * Time: 2:55 PM
  */
-
+include_once("config.php");
 $api = apiRequest();
 $status = $api['state']['open'];
 
 function getContent() {
     $pagename = filter_input(INPUT_GET, 'title', FILTER_SANITIZE_URL);
-    $page = 'http://vincent-liu.me/kraut/content/' . $pagename . '.txt';
+    $page = $root_url . '/content/' . $pagename . '.txt';
     $file = fopen($page, 'rb');
     if($file) {
         echo stream_get_contents($file);
@@ -33,9 +33,9 @@ function apiRequest()
 
 function getKrautButtonColor($status) {
     if ($status) {
-        echo "<img src='/kraut/img/icons/users.svg' id='krauticon'>";
+        echo "<img src='/img/icons/users.svg' id='krauticon'>";
     } else {
-        echo "<img src='/kraut/img/icons/user-times.svg' id='krauticon'>";
+        echo "<img src='/img/icons/user-times.svg' id='krauticon'>";
     }
 }
 
@@ -52,7 +52,7 @@ function getKrautSidebar($status)
     if ($status) {
         echo <<<END
 <div class="sidebar-heading">
-<div class="icondiv"><img src="/kraut/img/icons/users.svg" class="icon" alt="Person"></div>
+<div class="icondiv"><img src="/img/icons/users.svg" class="icon" alt="Person"></div>
 <h4>Raum ist geöffnet</h4>
 <p>Schaut einfach vorbei</p>
 </div>
@@ -61,7 +61,7 @@ END;
     } else {
         echo <<<END
 <div class="sidebar-heading">
-<div class="icondiv"><img src="/kraut/img/icons/user-times.svg" class="icon" alt="niemand"></div>
+<div class="icondiv"><img src="/img/icons/user-times.svg" class="icon" alt="niemand"></div>
 <h4>Niemand ist im Raum</h4>
 <p>Keine Hackerseele anwesend</p>
 </div>
@@ -74,7 +74,7 @@ function getKrautButton($status)
     if ($status) {
         echo <<<END
 <div id="roombutton" class="krautopen">
-<img src="/kraut/img/icons/users.svg" id="roomicon" alt="Person">
+<img src="/img/icons/users.svg" id="roomicon" alt="Person">
 <p>Raum ist offen</p>
 </div>
 END;
@@ -82,7 +82,7 @@ END;
     } else {
         echo <<<END
 <div id="roombutton" class="krautclose">
-<img src="/kraut/img/icons/user-times.svg" id="roomicon" alt="niemand">
+<img src="/img/icons/user-times.svg" id="roomicon" alt="niemand">
 <p>Raum ist zu</p>
 </div>
 END;
