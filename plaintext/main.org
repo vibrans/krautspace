@@ -20,7 +20,7 @@
 
  2) 
     - Was ist der Krautspace? (Additional Information)
-    - Der Hackspace Jena e. V. ist ein gemeinnützer Verein zur kulturellen und technischen Austausch.
+    - Der Hackspace Jena e. V. ist ein gemeinnützer Verein zum kulturellen und technischen Austausch.
     - Mehr Informationen über unsere Aktivitäten findet ihr in unserem Wiki oder unserem Blog.
     - [WIKI] [BLOG]
 
